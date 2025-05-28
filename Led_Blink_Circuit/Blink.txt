@@ -1,0 +1,45 @@
+
+Ques. What is the role of pinMode() and digitalWrite()?
+Ans . pinMode() specifies the ide that which pin we are using to get our ouput , whereas digitalWrite() is used to set the value of the as the high and low. 
+
+Ques. Why do we need a resistor in the circuit?
+Ans . We need resistor to control the supply of the current to be passed in the circuit , if we see by the ohm's law , if we take the less resistance so there will be a short circuit so we need to take the larger value , for the programs like led blink we take resistance 220 ohm to 330 ohm.
+
+Ques. Can you change the pin and make LED blink from pin 8?
+Ans . Just replace the value 13 to 8 , then it will work same as before. 
+
+
+***Let's understand the circuit now ::***
+**Components Used :: **
+1). Arduino UNO – acts as your brain/controller
+2). LED – your output device
+3). Resistor – protects your LED from too much current
+4). Wires – to create proper electrical paths
+
+**Why do we need to connect led this way:: **
+1. Pin 13 (Digital I/O Pin):: 
+   You connected the positive leg (anode) of the LED to Pin 13 because:
+  Pin 13 is a digital output pin, which can be set to HIGH (5V) or LOW (0V) through code.
+  When it's HIGH, current flows to the LED and it lights up.
+  ✨ Think of it like a remote switch. The code decides when to send power (HIGH) or not (LOW).
+
+ 2. GND (Ground) :: 
+    You connected the negative leg (cathode) of the LED to GND.
+    Why? Because for current to flow, it needs a complete path:
+    Arduino Pin 13 (+) ➡️ LED ➡️ Resistor ➡️ GND (-)
+    Without GND, it’s like plugging your charger into the wall without a return path — no current will flow, and your LED won’t light up.
+
+ 3. The Resistor :: 
+    Current from Arduino pins can be high enough to damage your LED.
+    The resistor limits current, protecting the LED.
+    Typically, you use a 220Ω to 330Ω resistor for basic LED circuits.
+
+-->SUMMARY :: 
+Imagine Pin 13 is a water tap.
+When the tap is open (HIGH), water flows through the LED.
+The resistor is like a nozzle that slows the flow so it doesn't break the pipe.
+The GND is the drain — water needs somewhere to go.
+
+
+
+
