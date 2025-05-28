@@ -1,0 +1,7 @@
+***What is LDR??***
+LDR stands for Light Dependent Resistor, also known as a photoresistor. It is a light-sensitive component whose resistance changes with the intensity of light falling on it.
+
+-->As same as we done in this project . we just made it simple and defined the basic value as threshold value then defined that whenever the light intensity is more than threshold it doesn't glow , and when light intenity is low , then it glows.
+
+Newly learned is ::
+analogRead --> to read the input value at pin A0
