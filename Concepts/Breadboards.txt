@@ -1,0 +1,16 @@
+#BREADBOARDS#
+
+<p>--> In the Internet of Things (IoT), breadboards play a crucial role during the prototyping phase of electronic circuits. They're used to quickly test and build circuits without soldering, making them ideal for experimentation and development.
+</p>
+
+***What is a Breadboard?***
+A breadboard is a rectangular plastic board with a grid of holes (also called tie-points) that allow electronic components and wires to be inserted and connected without permanent soldering.
+
+**Structure of a Breadboard**
+A typical breadboard has:
+1). Terminal Strips (Main Area): Used for placing and connecting ICs, resistors, sensors, etc.
+                                 Each horizontal row (usually 5 holes across) is electrically connected.
+2). Power Rails (on the sides):  Usually marked with + (red) and – (blue or black).
+                                 These run vertically and are used to supply power (Vcc) and ground (GND) throughout the board.
+3). Gap in the middle (trench):  Separates the board into two halves and is designed for placing integrated circuits (ICs).
+
