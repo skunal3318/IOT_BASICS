@@ -1,0 +1,12 @@
+***🔹 What is an LED?***
+
+- An LED is a semiconductor device that emits light when current flows through it. It is directional (has polarity), so current must flow from the anode (positive) to the cathode (negative) for it to light up.
+- It does not glow if connected in reverse.
+- LEDs are energy-efficient and available in various colors, sizes, and brightness levels.
+
+Anode = Longer leg (+)
+Cathode = Shorter leg (–), usually has a flat edge
+
+
+
+
