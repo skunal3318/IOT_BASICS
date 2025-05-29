@@ -1,0 +1,19 @@
+***What is a Resistor?***
+- A resistor is a passive electrical component that resists the flow of electric current. It’s used to control voltage and current in a circuit.
+- Measured in Ohms (Ω)
+- Follows Ohm’s Law:
+                V=I×R
+ Where:
+    V = Voltage across the resistor (Volts)
+    I = Current through the resistor (Amperes)
+    R = Resistance (Ohms)
+
+**How Resistors Work**
+-A resistor reduces the current or drops the voltage across components. It does this by converting electrical energy into heat.
+
+**Reading Resistor Values (Color Code)**
+4-band resistor color code (left to right):
+1st band = 1st digit
+2nd band = 2nd digit
+3rd band = Multiplier
+4th band = Tolerance
