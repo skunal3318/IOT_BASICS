@@ -1,0 +1,21 @@
+***What is the Push Button?? ***
+
+A push button is a simple switch that completes or breaks the circuit when it is pressed .It's a type of digital input device , it has two states ::
+1). Pressed(low) --> Circuit is completed
+2). Pressed(High) --> Circuit is open.
+
+It's momentary , means only works when it is pressed .
+
+-> If we connect a push button without a resistor then pin float which results in false readings and randomly fluctuate due to non fixed voltage .
+
+🛡️ Solution: Use  Pull-Up or Pull-Down Resistors
+
+Type	                           Description	                                    Result
+Pull-Down	            Keeps pin LOW until button pressed → goes HIGH	           Logic: LOW → HIGH
+Pull-Up              	Keeps pin HIGH until button pressed → goes LOW	           Logic: HIGH → LOW
+
+# Advantages of Using Buttons
+1). Simple way to get user input
+2). Can be used to toggle, control, or navigate
+3). Foundation of all interactive electronics (TV remotes, elevator panels, etc.)
+
