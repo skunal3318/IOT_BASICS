@@ -1,0 +1,55 @@
+🚨 Project Title:
+
+- Security Alert System – LED + Button + Buzzer
+
+📝 Project Description:
+
+- This project simulates a basic home security alarm system using an Arduino Uno. It is designed to alert users of a potential intrusion or emergency by activating both audible and visual signals. When a button is pressed (representing a security trigger), a buzzer sounds and a red LED blinks to simulate an alarm.
+- This compact system helps demonstrate core concepts of input/output interfacing, conditional logic, and timing control in Arduino programming.
+
+🎯 Goal:
+
+To simulate a security alert system where:
+   - A button acts as the trigger (e.g., intruder detection or emergency button).
+   - A buzzer generates an audible alert.
+   - A red LED blinks as a visual warning signal.
+
+🧰 Components Used:
+
+  Component     	Description
+
+-Arduino Uno    	Main microcontroller board
+-Push Button	    Trigger to simulate intrusion
+-Red LED	        Visual alarm indicator
+-Buzzer      	    Audible alert device
+-Resistors	      Current limiting for LED & button
+
+
+🔌 Circuit Behavior:
+
+-Default State (Button Not Pressed):
+LED and buzzer are off.
+
+-Alert State (Button Pressed):
+LED and buzzer turn on for 200ms.
+
+-Then off for 200ms.
+This loop continues while the button is pressed, simulating a blinking and beeping alarm.
+
+
+💻 Code Summary:
+
+-Button connected to pin 2, using internal pull-up.
+-Red LED connected to pin 8.
+-Buzzer connected to pin 10.
+-Uses digitalRead() to detect button press.
+-Uses digitalWrite() and delay() to control alarm pattern.
+
+
+✅ Learning Outcomes:
+
+-Understanding how to use input devices (buttons) with Arduino.
+-Interfacing LEDs and buzzers as output devices.
+-Using conditional statements (if-else) to control hardware behavior.
+-Applying basic timing with delay() to simulate blinking/flashing effects.
+
