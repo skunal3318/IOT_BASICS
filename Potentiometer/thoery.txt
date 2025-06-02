@@ -1,0 +1,19 @@
+**What is a Potentiometer?**
+
+A potentiometer (or “pot”) is a variable resistor that you can rotate or slide to change its resistance. It's often used as a manual control device — like volume knobs or brightness dials.
+
+**⚙️ Basic Structure:**
+
+It has 3 pins:
+  -Pin 1 (VCC) → Connect to 5V
+  -Pin 2 (Wiper/Middle pin) → Connect to analog input pin (e.g., A0)
+  -Pin 3 (GND) → Connect to GND
+
+Inside, there's a resistive track, and turning the knob moves the wiper across it, changing the resistance ratio between pin 1 and pin 3.
+
+**🔋 How It Works:**
+
+Turning the knob changes the voltage at the middle pin (wiper).
+This voltage ranges from 0V to 5V.
+When connected to an analog pin, you can read this value with analogRead(), which gives a number from 0 to 1023.
+
