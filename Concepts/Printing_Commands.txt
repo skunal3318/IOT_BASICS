@@ -1,0 +1,15 @@
+--> Example One (Code)::
+int i = 1;
+int delaytime = 750;
+String mystring = "i = ";
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  Serial.print(mystring);
+  Serial.println(i);
+  i = i + 1;
+  delay(delaytime);
+}
