@@ -1,0 +1,17 @@
+Pulse Width Modulation (PWM) is a technique used to control the amount of power delivered to an electronic device by varying the duty cycle of a digital signal.
+
+--> How it works??
+1). PWM turns a signal on and off very rapidly, but adjusts how long it stays on vs off in each cycle.
+2). Duty Cycle: The percentage of time the signal is ON during one complete cycle.
+    0% = always OFF
+    50% = ON for half the time
+    100% = always ON
+
+--> Used in?
+LED brightness control 🟡 (dim by lowering duty cycle)
+Motor speed control ⚙️ (slow down by reducing ON time)
+Audio signal generation
+Servo motor positioning (in robotics and IoT!)
+
+--> Use of Capacitor??
+When using PWM to simulate analog voltage, a capacitor is often added to the output to smooth the signal. This is especially important when driving devices that expect steady (analog) voltage, like audio equipment, sensors, or analog inputs.
